@@ -7,7 +7,7 @@ import java.util.Date;
 @Entity
 @Table (name="alumno")
 //Problemas con lombok, plug-in instalado,compilador configurado, pom.xml en orden.Pero no he podido incluir las anotaciones lombok
-
+//p
 public class Alumno implements Serializable {
     @Column(name="nombre")
     private String nombre;
